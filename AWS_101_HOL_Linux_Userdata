@@ -9,7 +9,7 @@ esac
 
 if [ ! -f /var/www/html/ec2-linux-web.tar.gz ]; then
 cd /var/www/html
-wget https://github.com/mzcsainthm/AWS_HOL_101/blob/main/ec2-linux-web.tar.gz
+wget https://github.com/mzcsainthm/AWS_HOL_101/raw/main/ec2-linux-web.tar.gz
 tar -zxvf ec2-linux-web.tar.gz
 fi
 yum -y update
